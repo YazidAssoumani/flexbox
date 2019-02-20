@@ -1,0 +1,58 @@
+/**********************************
+***** Remove Default Settings *****
+**********************************/
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0
+    }
+
+    a, a:hover, a:visited, a:active 
+    {text-decoration: none}
+/**********************************
+***** Remove Default Settings *****
+**********************************/
+
+
+/*************************************************
+********************** MENU **********************
+**************************************************/
+    #advanced-nav ul {
+        display: flex;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 17px
+    }
+
+    #advanced-nav li {
+        display: flex;
+        justify-content: center;
+        flex: 1
+    }
+
+    #advanced-nav a {
+        display: flex;
+        padding: 10px 0px;
+        flex: 1;
+        background-color: #262626;
+        color: #f2f2f2;
+        font-size: 1.6em
+    }
+
+    #advanced-nav a:hover {
+        background-color: #f2f2f2;
+        color: #262626
+    }
+
+    .icon {
+        display: flex;
+        align-items: center;
+        padding: 0 15px;
+    }
+
+    .button-text span {
+        display: block;
+        font-size: initial;
+    }
+/*************************************************
+********************** MENU **********************
+**************************************************/
